@@ -11,4 +11,3 @@ def line(katz_deli)
     end
     puts "The line is currently: #{join(newArr(",""))}"
   end
-end
