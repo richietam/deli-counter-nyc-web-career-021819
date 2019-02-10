@@ -23,6 +23,6 @@ def now_serving(katz_deli)
     puts "There is no one on line."
   else
     puts "Currently serving #{katz_deli[0]}"
-    katz_deli.pop()
+    katz_deli.shift()
 
 end
