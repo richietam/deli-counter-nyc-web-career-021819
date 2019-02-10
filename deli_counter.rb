@@ -7,8 +7,8 @@ def line(katz_deli)
   else katz_deli.length == 1
     newArr = []
     katz_deli.each_with_index do |item, i|
-      newArr.push("#{i +1}. #{item} ")
+      newArr.push("#{i +1}. #{item}")
     end
-    puts "The line is currently: #{newArr.join()}"
+    puts "The line is currently: #{newArr.join(" ")}"
   end
 end
